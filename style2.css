@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #f4eee3;
   --surface: #fbf4ea;
   --accent: #324b3a;
@@ -8,17 +8,18 @@
   --border: rgba(199, 160, 94, 0.22);
 }
 
+
 @font-face {
   font-family: 'Miama';
   src: url(ofont.ru_Miama\ Nueva.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Stolz';
   src: url('ofont.ru_Stolzl.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 .lang-switch {
   /* position: absolute; */
@@ -37,9 +38,10 @@
 
 body {
   margin: 0;
-  font-family: 'Stolz', "Inter", system-ui, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: var(--bg);
   color: var(--text);
+  font-weight: 200;
 }
 
 img {
@@ -61,17 +63,19 @@ img {
   align-items: center;
   gap: 1rem;
   padding: 1.25rem 1.5rem;
+  font-weight: 200;
+
   /* background: var(--surface); */
   /* border: 1px solid var(--border); */
 }
 
 .site-header h1 {
   margin: 0;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 2rem;
-  font-family: 'Stolz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: var(--accent-light);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.9px;
 }
 
 
@@ -84,7 +88,7 @@ nav {
 nav a {
   color: var(--text);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .top-divider {
@@ -111,13 +115,13 @@ nav a {
 .hero-block h2 {
   margin: 0 0 0.75rem;
   font-size: clamp(2rem, 3vw, 2.6rem);
-  font-family: 'Stolz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 350;
 }
 
 .hero-block p {
   margin: 0;
   color: var(--text-soft);
-  font-weight: 700;
 }
 
 .quote-banner {
@@ -134,7 +138,6 @@ nav a {
   font-family: 'Miama', cursive;
   font-size: clamp(2rem, 4vw, 3rem);
   color: var(--accent-light);
-  font-weight: 300;
 }
 
 .quote-inner {
@@ -180,12 +183,8 @@ nav a {
 
 .story-copy h2 {
   margin: 0 0 1rem;
-  font-family: 'Stolz', sans-serif;
-
-}
-
-.story-copy p {
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .story-image {
@@ -221,7 +220,7 @@ nav a {
 .gallery h2 {
   text-align: center;
   margin: 0 0 1rem;
-  font-family: 'Stolz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .time-banner {
@@ -255,7 +254,7 @@ nav a {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--accent);
-  font-family: 'Stolz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .time-banner h2 {
@@ -313,7 +312,7 @@ nav a {
 
 .footer-block h3 {
   margin: 0 0 1rem;
-  font-family: 'Stolz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
 }
 
